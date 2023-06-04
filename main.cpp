@@ -84,14 +84,14 @@ private:
 
 
 int main() {
-    basic_ws_client ws = basic_ws_client("ws://127.0.0.1:12000");
+    basic_ws_client ws("ws://127.0.0.1:12000");
     ws.try_connect();
 
     std::string msg;
     while (true) {
         std::cout << "Write Message:" << std::endl;
         std::cin >> msg;
-        
+
         websocketpp::lib::error_code err = ws.send(msg);
 
         if (err) {
