@@ -4,9 +4,9 @@ This is a basic example of a websocketpp client, which maintains a single connec
 
 If the connection to the server is lost, it will attempt to reconnect upon every subsequent message. If the connection is reestablished, it will resume sending messages.
 
-It is intended to be a very barebones example derived from the [full example](https://github.com/zaphoyd/websocketpp/blob/master/tutorials/utility_client/step6.cpp) on the websocketpp website. It does not contain any handlers or other features.
+It is intended to be a very barebones example derived from the [full example](https://github.com/zaphoyd/websocketpp/blob/master/tutorials/utility_client/step6.cpp) on the websocketpp website. It does not contain any code for handlers or other features.
 
-See the comments in main.cpp for more information.
+See the comments in `main.cpp` for more information.
 
 See the following for other useful examples and explanation:
  - https://github.com/zaphoyd/websocketpp/blob/master/tutorials/utility_client/utility_client.md
